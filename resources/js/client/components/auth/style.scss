@@ -1,0 +1,19 @@
+.loginContainer {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #24547f;
+
+    .loginBox {
+        background-color: white;
+        padding-bottom: 8vh;
+        margin-top: 17vh;
+    }
+
+    .loginTitle {
+        padding-top: 4vh;
+        color: #122a40;
+        text-align: center;
+        font-family: "Sarabun", sans-serif;
+        margin-bottom: 4vh;
+    }
+}
