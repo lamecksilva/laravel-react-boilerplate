@@ -1,12 +1,12 @@
 import axios from "axios";
 
-const jj = () => {
+const loginUser = userData => {
     axios
-        .get("http://localhost:9000/api/kk")
+        .post("/login", userData)
         .then(response => console.log(response))
         .catch(error => console.log(error));
 };
 
 export const authActions = {
-    jj
+    loginUser
 };
