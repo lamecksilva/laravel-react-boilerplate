@@ -1,8 +1,17 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
-import "./style.scss";
+import './style.scss';
+
 class Landing extends Component {
+    constructor(props) {
+        super(props);
+    }
+
+    componentDidMount() {
+        this.props.history.push('/login');
+    }
+
     render() {
         return (
             <div className="landingContainer">
